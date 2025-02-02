@@ -708,7 +708,8 @@
 }
 @font-face {
   font-family: 'Popfine';
-  src: url('../fonts/POPFINE-Italic.ttf') format('truetype');
+  src: url('../fonts/POPFINE-Italic.woff2') format('woff2'),
+       url('../fonts/POPFINE-Italic.woff') format('woff');
   font-weight: 400;
   font-style: italic;
   font-display: swap;
